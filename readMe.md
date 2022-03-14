@@ -71,7 +71,11 @@ for piece in read_in_chunks(f):
 
 **O uso do yield:** O yield cria um generator, uma lista de dados que serão consumidos sob demanda, sendo assim pode ser utilizado para uma melhor abstração do codigo. Nesse caso em especifico era necessário ele foi utilizado para fragmentar arquivos txt com mais de 5Gb, que seriam grandes demais para ler de uma unica vez. Logo o codigo retora os dados presentes para cara "pedaço" de 10mb, um novo arquivo é gerado.
 
+# Hard Skills Desenvolvidas:
+Python, Selenium
 
+# Soft Skills Efetivamente Desenvolvidas:
+Como softskills desenvolvidas, temos o aprendizado inicial do uso do scrum, mesmo que ainda longe de uma aplicaçao ideal, ainda sim tivemos a ideia de como se portavam cada papel e suas principais funções.
 
 # Aprendizados Efetivos
 Com base nas rotinas desenvolvidas, pode se  absorver o uso do generator para criar estados de codigo que serão aproveitados ao longo da execução, posteriormente foi cogitado o uso do pandas para tal, uma vez que ele lida com a manipulação de dataframes, logo, além de apresentar melhor desempenho ainda entrega uma serie de funções uteis e facilidades para o uso dos dados principalmente quando está aliado ao numpy.
@@ -110,6 +114,12 @@ Junto a isso temos as aplicações das 3 Formas Normais, sendo elas:
 2ª Forma normal: Primeiramente é preciso já estar de acordo com a 1ªFN para estar de acordo com a 2ªFN. Além disso todos os atributos não chave devem depender apenas da chave primária. Por exemplo, ainda na relação entre a pessoa e habilidade, caso na entidade pessoa houvesse a descrição de uma habilidade, essa por sua vez estaria fora da 2ªFN uma vez que essa informação depende do ID da habilidade e não do ID da pessoa.
 
 3ª Forma normal: Como acontece anteriormente, é necesário já estar de acordo com a 2ªFN. A 3ªFN diz que os atributos não pertencente a chave primária devem ser mutuamente independentes e dependentes apenas da cahve identificadora, por exemplo no caso da relação entre projeto e tarefa, caso na tarefa tívessimos a informação do projeto junto de seu id, essa informação deveria ser removida apenas restando os dados referentes a tarefa e o id do projeto
+
+# Hard Skills Desenvolvidas:
+Python, Mysql, JavaScript
+
+# Soft Skills Efetivamente Desenvolvidas:
+O enfoque desse projeto esteve voltado principalmente a atuação em time, tanto o respeito com os parceiros, quato ao entendimento do real trabalho em time. Um ponto de destaque principal é o impacto da divisão de tarefas, saber assumir tarefas conforme sua real capacidade de desenvolvimento.
 
 # Aprendizados Efetivos
 Como aprendizado efetivo, posso destacar o correto uso das formas normais para a modelagem correta do banco de dados. Os levantamentos de informações necessários para que o banco seja capaz de atender demanda exigida pelo conceito da aplicação e pela aplicação em si. Logo é preciso definir quais serão as informações a serem armazenadas, o nivél de detalhamento, as relações entre si e o uso das mesmas. Assim dessa maneira sendo possível o desenvolvimento dos scripts de criação do banco embasado no que foi anteriormente planejado.
@@ -257,7 +267,11 @@ public class CsvFonteHelper {
 Feito isso cada objeto é adicionado a um array que será retornado para o CsvFonteService e salvo a partir da instrução "saveAll()". A vantagem do "saveAll" em relação ao "save()" é que ao contrario do save que cria uma transação para cada registro, o saveAll utiliza uma unica transação para salva multiplos registros, dessa forma sendo muito mais perfomatico quando se é necessario salvar uma coleção de varias linhas no banco de dados.
 
 
+# Hard Skills Desenvolvidas:
+Java, Oracle Database, SpringBoot
 
+# Soft Skills Efetivamente Desenvolvidas:
+Como softskills desenvolvidas ressalto a habilidade de priorizar o desenvolvimento de tarefas, comunicação efetiva entre times.
 
 
 # Aprendizados Efetivos
