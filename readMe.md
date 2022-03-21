@@ -311,6 +311,91 @@ Para a aplicação também utilizamos inicialmente uma imagem do SQLSever, poré
 
 Adicionalmente, foi utilizado uma pipeline de deploy automático, que utilizava-se de um Container Repository da Digital Ocean, ou seja, era utilizado um repositório para as imagens docker geradas através do build do sistema, e no servidor onde a aplicação executava era utilizado uma tag para sempre utilizar a imagem mais recente, desse modo sempre que ocorria um merge aprovado para a master, automaticamente a aplicação era atualizada.
 
+Para a realização do deploy era utilizada a seguinte workflow:
+```
+name: Build And Deploy
+
+on:
+  push:
+    branches:
+      - 'main'
+      - 'develop'
+jobs:
+  setup-build-publish-deploy:
+    name: Setup, Build, Publish, and Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: GitHub Action for DigitalOcean - doctl
+      # You may pin to the exact commit or the version.
+      # uses: digitalocean/action-doctl@d36a87b1d9c7bd55c8d8434ff2a991a6ee32a448
+      uses: digitalocean/action-doctl@v2.1.0
+      with:
+        # Version of doctl to install
+        version: # optional, default is latest
+        # DigitalOcean API Token
+        token: ${{ secrets.DO_TOKEN }}
+    - name: Configure Docker
+      run: |
+        doctl registry login
+    - name: BuildDocker
+      run: |
+        docker build --tag  registry.digitalocean.com/nemo-container/v1 --file etl/Dockerfile .
+    - name: Push to Container Registry
+      run: |
+        docker push registry.digitalocean.com/nemo-container/v1
+```
+
+Por utilizarmos a Digital Ocean para hospedagem e execução, é necessário realizar a configuração de um token através dos secrets do github.
+
+![image](https://user-images.githubusercontent.com/65822756/159380935-24edb62a-3055-4bf2-8db6-95ad3edd77fe.png)
+
+Uma vez configurado o secret, podemos apenas atualizar ou apagar o mesmo.
+
+Juto da aplicação utilizamos um serviço de chat desenvolvido por terceiros e disponibilizado através de uma imagem docker, porém para o seu correto funcionamento o chat dependia da utilização de 3 instancias do mongo, uma primaria e duas replicas.
+
+Para realizar tal feito sem a necessidade de se utilizar 3 VMs da Digital Ocean, foi configurado 3 services do mongo em um arquivo docker-compose, utilizando uma rede para a comunicação entre eles.
+
+```
+version: '2'
+networks:
+    chatNetwork:
+        external: true
+services:
+  mongo:
+    image: mongo:4.0
+    restart: unless-stopped
+    command: mongod --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1 -port 27017
+    labels:
+      - "traefik.enable=false"
+    ports:
+      - 3002:27017
+    networks:
+      - chatNetwork
+  mongo2:
+    image: mongo:4.0
+    restart: unless-stopped
+    command: mongod --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1 -port 27017
+    labels:
+      - "traefik.enable=false"
+    ports:
+      - 3003:27017
+    networks:
+      - chatNetwork
+  mongo3:
+    image: mongo:4.0
+    restart: unless-stopped
+    command: mongod --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1 -port 27017
+    labels:
+      - "traefik.enable=false"
+    ports:
+      - 3004:27017
+    networks:
+      - chatNetwork
+```
+
+
 # Hard Skills Desenvolvidas:
 
 Java, Git Workflow, Docker, Cloud Compute, MongoDb
