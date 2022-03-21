@@ -277,3 +277,44 @@ Como softskills desenvolvidas ressalto a habilidade de priorizar o desenvolvimen
 # Aprendizados Efetivos
 Como principais apreendizados, devo ressaltar o uso do design patterns e um aprimoramento do conhecimento da linguagem java juntamente com o uso de frameworks para o desenvolvimento web.
 Outro ponto importante se dá na analise critica de dados, entender o que casa dado representa e como gerar valor a partir dele e claro sem infligir ou violar a lei geral de proteção de dados (lgpd), pois atualmente devemos ter o máximo cuidado com o uso e exposição de dados de terceiros.
+
+# Nemo
+
+No primeiro semestre de 2021, no então 4º semestre, trabalhamos junto ao parceiro {Nome do parceiro} em uma aplicação que tinha por objetivo o macth entre o candidato e o contratante para uma determinada vaga, com base nas skills e experiência do candidato.
+
+# Contribuições individuais/pessoais
+Nesse projeto em especifico, fiquei responsável pelo sistema de calculo do “score” que cada candidato apresentava para a vaga, ou seja, o quanto o candidato se encaixava na vaga a ser disputada.
+
+Como um dos grandes problemas apresentados pelo cliente era a questão de distancia e o valor que a empresa contratante precisaria desembolsar de vale transporte, a aplicação era munida de um modulo de integração geoespacial e o uso de uma das muitas API’s disponibilizada pelo Google em especial o seu produto Directions.
+
+Essa integração consistia no calculo do quão “complexo” seria o transporte do candidato,  para isso utilizei do retorno da API Google Directions. Nela era possível verificar qual a distancia e tempo de locomoção, além de ter informações adicionais como por exemplo: Quantos ônibus eram necessários e qual tempo dentro de cada um. 
+
+Em adição ao sistema provido de geolocalização, também fui responsável pelo desenvolvimento das buscas avançadas por candidatos e oportunidades, utilizando do recurso de critérios.
+
+Para a busca mais avançada o sistema consistia de uma busca ponderada, inicialmente era feito uma busca simples pelos critérios desejados para a vaga de maneira bem genérica. Em seguida com aquele resultado era aplicado uma logica de pesos, onde cada critério atendido da vaga adicionava uma pontuação pré configurada pelo recrutador, assim obtendo um rank de candidatos, dentro dos possíveis candidatos
+
+# Hard Skills Desenvolvidas:
+Java, FeingCient, Postgis, Hibernate, JPA
+
+# Soft Skills Efetivamente Desenvolvidas:
+Como skill de destaque, devo ressaltar o desenvolvimento da capacidade analítica, como lidar com os dados retornados pela Directions, como usar esses dados ao nosso favor, como gerar valor em uma série de métricas para o nosso cliente.  Por mais do sistema não ser perfeito e acabar por cortar algumas pessoas da lista, ele acabava por apresentar um bom ranqueamento.
+
+# Nemo 5º Semestre
+Para o o 5 semestre tivemos como parceiros a empresa {Nome da empresa}, e o objetivo era o desenvolvimento de uma plataforma para o suporte ao ensino as distancia e oferta de conhecimento, sendo capaz de levantar métricas a partir do uso da plataforma.
+
+# Contribuições Pessoais
+Nesse projeto estive mais envolvida na parte de infra estrutura e dev-ops, dentre as atividades desenvolvidas estão: 
+
+Implantação de uma ferramenta de chat, utilizando os serviços de cloud da Digital Ocean e dependências em containers docker, tais como o MongoDB e seu sistema de replicação entre 3 instancias. Nesse caso em especifico se tratavam de 3 imagens Docker que se comunicavam entre si.
+
+Para a aplicação também utilizamos inicialmente uma imagem do SQLSever, porém devido a fatores de subutilização, foi adotado uma imagem de PostgreSql.
+
+Adicionalmente, foi utilizado uma pipeline de deploy automático, que utilizava-se de um Container Repository da Digital Ocean, ou seja, era utilizado um repositório para as imagens docker geradas através do build do sistema, e no servidor onde a aplicação executava era utilizado uma tag para sempre utilizar a imagem mais recente, desse modo sempre que ocorria um merge aprovado para a master, automaticamente a aplicação era atualizada.
+
+# Hard Skills Desenvolvidas:
+
+Java, Git Workflow, Docker, Cloud Compute, MongoDb
+
+# Soft Skills Efetivamente Desenvolvidas:
+
+Como soft skill tive o desenvolvimento da comunicação com o time de desenvolvimento, uma vez que não programava porém precisava dar suporte de infra estrutura as aplicações desenvolvidas.
