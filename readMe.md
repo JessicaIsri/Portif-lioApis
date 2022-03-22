@@ -1,6 +1,7 @@
 # Webbot
 
-Projeto de Webbot - FATEC Prof. Jessen Vidal - São José dos Campos / 2019 
+Projeto de Webbot - FATEC Prof. Jessen Vidal - São José dos Campos / 2019
+Link para o repositório: https://github.com/JessicaIsri/WebBot
 
 ## Resumo do projeto desenvolvido
 O sistema em questão tinha como objetivo o desenvolvimento de um webbot que fosse capaz de solucionar um problema da atualidade. O problema a ser resolvido era de livre escolha dos participantes.
@@ -86,6 +87,7 @@ Contudo, não posso deixar de destacar as habilidades interpessoais adiquiridas,
 # GANTT PLANNER
 
 Projeto de Gantt Planner - FATEC Prof. Jessen Vidal - São José dos Campos / 2020
+Link para o repositório: https://github.com/JessicaIsri/GANTT-PLANNER
 
 ## Resumo do projeto desenvolvido
 O Gantt Planner surgiu da necessidade da empresa Necto, da qual precisava de uma ferramenta que fosse facil de se utilizar, portatil e flexivél e que tivesse a capacidade de auxiliar no planejamento dos projetos presentes na empresa, visto que em uma breve comparação com ferramentas semelhantes as mesmas sempre possuiam algum fator dificultante, seja a visualização ou então a limitação do uso por todos os setores.
@@ -128,7 +130,8 @@ Para além disso a priorização e levantamento de requisitos, representam a bas
 
 # Valcode
 
-Projeto de CADASTRO POSITIVO - FATEC Prof. Jessen Vidal - São José dos Campos / 2020.2 
+Projeto de CADASTRO POSITIVO - FATEC Prof. Jessen Vidal - São José dos Campos / 2020.2
+Link para o repositório: https://github.com/JessicaIsri/Valcode
 
  
 ## Resumo do projeto desenvolvido
@@ -282,6 +285,8 @@ Outro ponto importante se dá na analise critica de dados, entender o que casa d
 
 No primeiro semestre de 2021, no então 4º semestre, trabalhamos junto ao parceiro {Nome do parceiro} em uma aplicação que tinha por objetivo o macth entre o candidato e o contratante para uma determinada vaga, com base nas skills e experiência do candidato.
 
+Link para o repositório: https://github.com/JessicaIsri/Nemo
+
 ## Contribuições individuais/pessoais
 Nesse projeto em especifico, fiquei responsável pelo sistema de calculo do “score” que cada candidato apresentava para a vaga, ou seja, o quanto o candidato se encaixava na vaga a ser disputada.
 
@@ -301,6 +306,8 @@ Como skill de destaque, devo ressaltar o desenvolvimento da capacidade analític
 
 # Nemo 5º Semestre
 Para o o 5 semestre tivemos como parceiros a empresa {Nome da empresa}, e o objetivo era o desenvolvimento de uma plataforma para o suporte ao ensino as distancia e oferta de conhecimento, sendo capaz de levantar métricas a partir do uso da plataforma.
+
+Link para o repositório: https://github.com/api-fatec-bd/api
 
 ## Contribuições Pessoais
 Nesse projeto estive mais envolvida na parte de infra estrutura e dev-ops, dentre as atividades desenvolvidas estão: 
