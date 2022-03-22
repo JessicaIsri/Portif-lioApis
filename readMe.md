@@ -149,7 +149,7 @@ Spring Boot - O Spring Boot é um framework para java que permite o desenvolvime
 Angular - O angular é um framework para Java Script, que tem como grandes beneficios a sua modularidade e produtividade 
 
 ## Contribuições individuais/pessoais
-## Desenvolimento dos Entity e Repositories: 
+### Desenvolimento dos Entity e Repositories: 
 Os Entity e Repositories são classes de abstração das tabelas do banco de dados. A partir deles podemos acessar as colunas e seus respectivos dados. Para esse projeto foram utilizados as seguintes entidades:
 - Fonte
 - Modalidade
