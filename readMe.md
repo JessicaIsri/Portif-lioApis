@@ -2,18 +2,18 @@
 
 Projeto de Webbot - FATEC Prof. Jessen Vidal - São José dos Campos / 2019 
 
-# Resumo do projeto desenvolvido
+## Resumo do projeto desenvolvido
 O sistema em questão tinha como objetivo o desenvolvimento de um webbot que fosse capaz de solucionar um problema da atualidade. O problema a ser resolvido era de livre escolha dos participantes.
 Tendo isso em mente a aplicação tem o objetivo de auxiliar na pesquisa de mercado para pequenas empresas da cidade de São José dos Campos, através da coleta de dados no portal da Receita Federal e com os dados de CEP localizar a latitude e longitude aproximada para além de de dados adicionais do endereço, dessa forma sendo possivel a analise da concorrencia de um determinado estabelecimento em um determinado ramo em um local especifico da cidade de São José dos Campos.
 
-# Técnologias utilizadas na solução
+## Técnologias utilizadas na solução
 As seguintes tecnologias foram adotadas na solução desenvolvida:
 - Python: O python é uma linguagem de programação interpretada, muito utilizada para analises de dados. Possui como sua principal vantagem e facilidade de aprendizado, sintaxe amigavél além de ser poderosa para diversos usos.
 - Django: Django é um framework para desenvolvimento rápido para web, escrito em Python, que utiliza o padrão model-template-view.
 - Selenium: Selenium é um framework portátil para testar aplicativos web, porém pode ser adptado para o desenvolvimento de bots que necessitem de interação direta com uma interface.
 - MongoDB: O MongoDB é um sistema de banco de dados NoSql orientado a documentos, com o uso similar ao JSON.
 
-# Contribuições individuais/pessoais
+## Contribuições individuais/pessoais
 Contribui com o desenvolvimento do bot que recuperava os arquivos fornecedos pela Receita Federal, rotinas de leitura dos arquivos dos quais cada um continha aproximadamente 5GB de dados. Para além do metodo de recuperação dos dados espaciais através do dado do CEP.
 
 ### Motor de extração de dados Geograficos
@@ -71,13 +71,13 @@ for piece in read_in_chunks(f):
 
 **O uso do yield:** O yield cria um generator, uma lista de dados que serão consumidos sob demanda, sendo assim pode ser utilizado para uma melhor abstração do codigo. Nesse caso em especifico era necessário ele foi utilizado para fragmentar arquivos txt com mais de 5Gb, que seriam grandes demais para ler de uma unica vez. Logo o codigo retora os dados presentes para cara "pedaço" de 10mb, um novo arquivo é gerado.
 
-# Hard Skills Desenvolvidas:
+## Hard Skills Desenvolvidas:
 Python, Selenium
 
-# Soft Skills Efetivamente Desenvolvidas:
+## Soft Skills Efetivamente Desenvolvidas:
 Como softskills desenvolvidas, temos o aprendizado inicial do uso do scrum, mesmo que ainda longe de uma aplicaçao ideal, ainda sim tivemos a ideia de como se portavam cada papel e suas principais funções.
 
-# Aprendizados Efetivos
+## Aprendizados Efetivos
 Com base nas rotinas desenvolvidas, pode se  absorver o uso do generator para criar estados de codigo que serão aproveitados ao longo da execução, posteriormente foi cogitado o uso do pandas para tal, uma vez que ele lida com a manipulação de dataframes, logo, além de apresentar melhor desempenho ainda entrega uma serie de funções uteis e facilidades para o uso dos dados principalmente quando está aliado ao numpy.
 Para o caso do webbot, foi essencial o uso do wait para a espera dos eventos do navegador, e dessa maneira evitar erros relacionados a falta de algum elemento na pagina.
 Contudo, pode se afirmar que o real aprendizado se deu em relação ao inicio da manipulação dos dados contanto quase que exclsivamente das bibliotecas nativas da propria linguagem do python.
@@ -87,18 +87,18 @@ Contudo, não posso deixar de destacar as habilidades interpessoais adiquiridas,
 
 Projeto de Gantt Planner - FATEC Prof. Jessen Vidal - São José dos Campos / 2020
 
-# Resumo do projeto desenvolvido
+## Resumo do projeto desenvolvido
 O Gantt Planner surgiu da necessidade da empresa Necto, da qual precisava de uma ferramenta que fosse facil de se utilizar, portatil e flexivél e que tivesse a capacidade de auxiliar no planejamento dos projetos presentes na empresa, visto que em uma breve comparação com ferramentas semelhantes as mesmas sempre possuiam algum fator dificultante, seja a visualização ou então a limitação do uso por todos os setores.
 Logo o Gantt Planner nasceu com a proposa de ser uma ferramenta visual de planejamento, apesentando de forma grafica os projetos e recursos disponiveis no momento.
 
-# Técnologias utilizadas na solução
+## Técnologias utilizadas na solução
 - Python: O python é uma linguagem de programação interpretada, muito utilizada para analises de dados. Possui como sua principal vantagem e facilidade de aprendizado, sintaxe amigavél além de ser poderosa para diversos usos.
 - Django: Django é um framework para desenvolvimento rápido para web, escrito em Python, que utiliza o padrão model-template-view.
 - PostgreSql: PostgreSQL é um sistema gerenciador de banco de dados objeto relacional, desenvolvido como projeto de código aberto.
 - JavaScript: JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. 
 - CSS: Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.
 
-# Contribuições individuais/pessoais
+## Contribuições individuais/pessoais
 Tive como pricipal contribuição a modelagem e administração das entidades presentes no banco de dados, onde as mesmas deveriam ser capaz  de atender a necessidade de exibição do front.
 ![image](https://user-images.githubusercontent.com/65822756/134255358-d701c31c-7da8-417b-b0ca-69a3ce30bfbd.png)
  O banco é composto pelas seguintes entidades:
@@ -115,13 +115,13 @@ Junto a isso temos as aplicações das 3 Formas Normais, sendo elas:
 
 3ª Forma normal: Como acontece anteriormente, é necesário já estar de acordo com a 2ªFN. A 3ªFN diz que os atributos não pertencente a chave primária devem ser mutuamente independentes e dependentes apenas da cahve identificadora, por exemplo no caso da relação entre projeto e tarefa, caso na tarefa tívessimos a informação do projeto junto de seu id, essa informação deveria ser removida apenas restando os dados referentes a tarefa e o id do projeto
 
-# Hard Skills Desenvolvidas:
+## Hard Skills Desenvolvidas:
 Python, Mysql, JavaScript
 
-# Soft Skills Efetivamente Desenvolvidas:
+## Soft Skills Efetivamente Desenvolvidas:
 O enfoque desse projeto esteve voltado principalmente a atuação em time, tanto o respeito com os parceiros, quato ao entendimento do real trabalho em time. Um ponto de destaque principal é o impacto da divisão de tarefas, saber assumir tarefas conforme sua real capacidade de desenvolvimento.
 
-# Aprendizados Efetivos
+## Aprendizados Efetivos
 Como aprendizado efetivo, posso destacar o correto uso das formas normais para a modelagem correta do banco de dados. Os levantamentos de informações necessários para que o banco seja capaz de atender demanda exigida pelo conceito da aplicação e pela aplicação em si. Logo é preciso definir quais serão as informações a serem armazenadas, o nivél de detalhamento, as relações entre si e o uso das mesmas. Assim dessa maneira sendo possível o desenvolvimento dos scripts de criação do banco embasado no que foi anteriormente planejado.
 Para além disso a priorização e levantamento de requisitos, representam a base de qualquer projeto, pois com essas informações é possivél basear não só o banco de dados mas toda a aplicação
 
@@ -131,7 +131,7 @@ Para além disso a priorização e levantamento de requisitos, representam a bas
 Projeto de CADASTRO POSITIVO - FATEC Prof. Jessen Vidal - São José dos Campos / 2020.2 
 
  
-# Resumo do projeto desenvolvido
+## Resumo do projeto desenvolvido
 Esse projeto foi desenvolvido visando a capacidade de gerar valor aos usuários do Cadastro Positivo, clientes do SPC BRASIL.
 O Valcode é uma plataforma que tem como objetivo auxiliar na obtenção de dados sobre o seu cadastro positivo, onde era possivél consultar seu score, saber quantas vezes o seu crédito foi consultado, a evolução do seu score com o passar do tempo, juntar pontos de recompensas para o icentivo da não inadiplencia e acessar a dicas de como ter uma vida financeira mais saudavél.
 Os dados utilizados foram capturados a partir de fontes publicas  e de caráter público, sobre o histórico de crédito, dessa forma podendo ser utilizados diante do consentimento do usuário.
@@ -140,7 +140,7 @@ Sendo assim o sistema deve ser capaz de aceitar fontes de dados externas para al
 ![image](https://user-images.githubusercontent.com/65822756/141018970-18faf248-3c21-4748-85a4-e09849948422.png)
 
 
-# Técnologias utilizadas na solução
+## Técnologias utilizadas na solução
 
 Java - O java foi utilizado devido as especificações do projeto, porém como vantagem principal o Java se apresenta como uma linguagem muito estavél e segura
 
@@ -148,7 +148,7 @@ Spring Boot - O Spring Boot é um framework para java que permite o desenvolvime
 
 Angular - O angular é um framework para Java Script, que tem como grandes beneficios a sua modularidade e produtividade 
 
-# Contribuições individuais/pessoais
+## Contribuições individuais/pessoais
 ## Desenvolimento dos Entity e Repositories: 
 Os Entity e Repositories são classes de abstração das tabelas do banco de dados. A partir deles podemos acessar as colunas e seus respectivos dados. Para esse projeto foram utilizados as seguintes entidades:
 - Fonte
@@ -267,14 +267,14 @@ public class CsvFonteHelper {
 Feito isso cada objeto é adicionado a um array que será retornado para o CsvFonteService e salvo a partir da instrução "saveAll()". A vantagem do "saveAll" em relação ao "save()" é que ao contrario do save que cria uma transação para cada registro, o saveAll utiliza uma unica transação para salva multiplos registros, dessa forma sendo muito mais perfomatico quando se é necessario salvar uma coleção de varias linhas no banco de dados.
 
 
-# Hard Skills Desenvolvidas:
+## Hard Skills Desenvolvidas:
 Java, Oracle Database, SpringBoot
 
-# Soft Skills Efetivamente Desenvolvidas:
+## Soft Skills Efetivamente Desenvolvidas:
 Como softskills desenvolvidas ressalto a habilidade de priorizar o desenvolvimento de tarefas, comunicação efetiva entre times.
 
 
-# Aprendizados Efetivos
+## Aprendizados Efetivos
 Como principais apreendizados, devo ressaltar o uso do design patterns e um aprimoramento do conhecimento da linguagem java juntamente com o uso de frameworks para o desenvolvimento web.
 Outro ponto importante se dá na analise critica de dados, entender o que casa dado representa e como gerar valor a partir dele e claro sem infligir ou violar a lei geral de proteção de dados (lgpd), pois atualmente devemos ter o máximo cuidado com o uso e exposição de dados de terceiros.
 
@@ -282,7 +282,7 @@ Outro ponto importante se dá na analise critica de dados, entender o que casa d
 
 No primeiro semestre de 2021, no então 4º semestre, trabalhamos junto ao parceiro {Nome do parceiro} em uma aplicação que tinha por objetivo o macth entre o candidato e o contratante para uma determinada vaga, com base nas skills e experiência do candidato.
 
-# Contribuições individuais/pessoais
+## Contribuições individuais/pessoais
 Nesse projeto em especifico, fiquei responsável pelo sistema de calculo do “score” que cada candidato apresentava para a vaga, ou seja, o quanto o candidato se encaixava na vaga a ser disputada.
 
 Como um dos grandes problemas apresentados pelo cliente era a questão de distancia e o valor que a empresa contratante precisaria desembolsar de vale transporte, a aplicação era munida de um modulo de integração geoespacial e o uso de uma das muitas API’s disponibilizada pelo Google em especial o seu produto Directions.
@@ -293,16 +293,16 @@ Em adição ao sistema provido de geolocalização, também fui responsável pel
 
 Para a busca mais avançada o sistema consistia de uma busca ponderada, inicialmente era feito uma busca simples pelos critérios desejados para a vaga de maneira bem genérica. Em seguida com aquele resultado era aplicado uma logica de pesos, onde cada critério atendido da vaga adicionava uma pontuação pré configurada pelo recrutador, assim obtendo um rank de candidatos, dentro dos possíveis candidatos
 
-# Hard Skills Desenvolvidas:
+## Hard Skills Desenvolvidas:
 Java, FeingCient, Postgis, Hibernate, JPA
 
-# Soft Skills Efetivamente Desenvolvidas:
+## Soft Skills Efetivamente Desenvolvidas:
 Como skill de destaque, devo ressaltar o desenvolvimento da capacidade analítica, como lidar com os dados retornados pela Directions, como usar esses dados ao nosso favor, como gerar valor em uma série de métricas para o nosso cliente.  Por mais do sistema não ser perfeito e acabar por cortar algumas pessoas da lista, ele acabava por apresentar um bom ranqueamento.
 
 # Nemo 5º Semestre
 Para o o 5 semestre tivemos como parceiros a empresa {Nome da empresa}, e o objetivo era o desenvolvimento de uma plataforma para o suporte ao ensino as distancia e oferta de conhecimento, sendo capaz de levantar métricas a partir do uso da plataforma.
 
-# Contribuições Pessoais
+## Contribuições Pessoais
 Nesse projeto estive mais envolvida na parte de infra estrutura e dev-ops, dentre as atividades desenvolvidas estão: 
 
 Implantação de uma ferramenta de chat, utilizando os serviços de cloud da Digital Ocean e dependências em containers docker, tais como o MongoDB e seu sistema de replicação entre 3 instancias. Nesse caso em especifico se tratavam de 3 imagens Docker que se comunicavam entre si.
@@ -396,10 +396,10 @@ services:
 ```
 
 
-# Hard Skills Desenvolvidas:
+## Hard Skills Desenvolvidas:
 
 Java, Git Workflow, Docker, Cloud Compute, MongoDb
 
-# Soft Skills Efetivamente Desenvolvidas:
+## Soft Skills Efetivamente Desenvolvidas:
 
 Como soft skill tive o desenvolvimento da comunicação com o time de desenvolvimento, uma vez que não programava porém precisava dar suporte de infra estrutura as aplicações desenvolvidas.
