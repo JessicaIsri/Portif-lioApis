@@ -9,7 +9,11 @@ Em 2020 recebi a oportunidade de atuar como desenvolvedor fullstack na area de G
 Atualmente estou buscando conhecimento na area de big data e machine learning, no momento para além da finalizaçao da faculdade de banco de dados, estou orientando meus estudos para a realização da prova de certificaçao do Google Data Engineer
 
 # Meus Projetos
-
+1. [WEBBOT](https://github.com/JessicaIsri/PortifolioApis/blob/main/readMe.md#webbot)
+2. [GANTT PLANNER](https://github.com/JessicaIsri/PortifolioApis/blob/main/readMe.md#gantt-planner)
+3. [Valcode](https://github.com/JessicaIsri/PortifolioApis/blob/main/readMe.md#valcode)
+4. [Nemo](https://github.com/JessicaIsri/PortifolioApis/blob/main/readMe.md#nemo)
+5. [Nemosys](https://github.com/JessicaIsri/PortifolioApis/blob/main/readMe.md#nemo-5%C2%BA-semestre)
 ## Webbot
 
 Projeto de Webbot - FATEC Prof. Jessen Vidal - São José dos Campos / 2019.2
@@ -315,7 +319,7 @@ Java, FeingCient, Postgis, Hibernate, JPA
 ### Soft Skills Efetivamente Desenvolvidas:
 Como skill de destaque, devo ressaltar o desenvolvimento da capacidade analítica, como lidar com os dados retornados pela Directions, como usar esses dados ao nosso favor, como gerar valor em uma série de métricas para o nosso cliente.  Por mais do sistema não ser perfeito e acabar por cortar algumas pessoas da lista, ele acabava por apresentar um bom ranqueamento.
 
-## Nemo 5º Semestre
+## Nemosys
 Nemo - FATEC Prof. Jessen Vidal - São José dos Campos / 2021.2
 Para o o 5 semestre tivemos como parceiros a empresa {Nome da empresa}, e o objetivo era o desenvolvimento de uma plataforma para o suporte ao ensino as distancia e oferta de conhecimento, sendo capaz de levantar métricas a partir do uso da plataforma.
 
