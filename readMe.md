@@ -8,6 +8,19 @@ Em 2020 recebi a oportunidade de atuar como desenvolvedor fullstack na area de G
 
 Atualmente estou buscando conhecimento na area de big data e machine learning, no momento para além da finalizaçao da faculdade de banco de dados, estou orientando meus estudos para a realização da prova de certificaçao do Google Data Engineer
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/jessica-dias1/">
+    <img width="100px" src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white">
+  </a>
+  <a href="https://github.com/JessicaIsri">
+    <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  <a href="https://github.com/JessicaIsri">
+    <img width="100px" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+</p>
+
+
 # Meus Projetos
 1. [WEBBOT](https://github.com/JessicaIsri/PortifolioApis/blob/main/readMe.md#webbot)
 2. [GANTT PLANNER](https://github.com/JessicaIsri/PortifolioApis/blob/main/readMe.md#gantt-planner)
