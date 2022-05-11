@@ -33,7 +33,7 @@ Ano: 2019.2
 
 Parceiro: FATEC
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/JessicaIsri/WebBot">
     <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
@@ -121,8 +121,9 @@ Contudo, pode se afirmar que o real aprendizado se deu em relação ao inicio da
 ## GANTT PLANNER
 
 Ano: 2020.1
+
 Parceiro: NECTO
-<p align="center">
+<p align="left">
   <a href="https://github.com/JessicaIsri/GANTT-PLANNER">
     <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
@@ -168,8 +169,10 @@ Como aprendizado efetivo, posso destacar o correto uso das formas normais para a
 ## Valcode
 
 Ano: 2020.2
+
 Parceiro: SPC
-<p align="center">
+
+<p align="left">
   <a href="https://github.com/JessicaIsri/Valcode">
     <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
@@ -323,8 +326,10 @@ Outro ponto importante se dá na analise critica de dados, entender o que casa d
 
 ## Nemo
 Ano: 2021.1
+
 Parceiro: GSW
-<p align="center">
+
+<p align="left">
   <a href="https://github.com/JessicaIsri/Nemo">
     <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
@@ -351,8 +356,10 @@ Como skill de destaque, devo ressaltar o desenvolvimento da capacidade analític
 
 ## Nemosys
 Ano: 2021.2
+
 Parceiro: NESS
-<p align="center">
+
+<p align="left">
   <a href="https://github.com/api-fatec-bd/api">
     <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
