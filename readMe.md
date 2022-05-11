@@ -29,9 +29,15 @@ Atualmente estou buscando conhecimento na area de big data e machine learning, n
 5. [Nemosys](https://github.com/JessicaIsri/PortifolioApis/blob/main/readMe.md#nemosys)
 ## Webbot
 
-Projeto de Webbot - FATEC Prof. Jessen Vidal - São José dos Campos / 2019.2
+Ano: 2019.2
 
-Link para o repositório: https://github.com/JessicaIsri/WebBot
+Parceiro: FATEC
+
+<p align="center">
+  <a href="https://github.com/JessicaIsri/WebBot">
+    <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
 
 O sistema em questão tinha como objetivo o desenvolvimento de um webbot que fosse capaz de solucionar um problema da atualidade. O problema a ser resolvido era de livre escolha dos participantes.
 Tendo isso em mente a aplicação tem o objetivo de auxiliar na pesquisa de mercado para pequenas empresas da cidade de São José dos Campos, através da coleta de dados no portal da Receita Federal e com os dados de CEP localizar a latitude e longitude aproximada para além de de dados adicionais do endereço, dessa forma sendo possivel a analise da concorrencia de um determinado estabelecimento em um determinado ramo em um local especifico da cidade de São José dos Campos.
@@ -114,9 +120,13 @@ Contudo, pode se afirmar que o real aprendizado se deu em relação ao inicio da
 
 ## GANTT PLANNER
 
-Projeto de Gantt Planner - FATEC Prof. Jessen Vidal - São José dos Campos / 2020.1
-
-Link para o repositório: https://github.com/JessicaIsri/GANTT-PLANNER
+Ano: 2020.1
+Parceiro: NECTO
+<p align="center">
+  <a href="https://github.com/JessicaIsri/GANTT-PLANNER">
+    <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
 
 O Gantt Planner surgiu da necessidade da empresa Necto, da qual precisava de uma ferramenta que fosse facil de se utilizar, portatil e flexivél e que tivesse a capacidade de auxiliar no planejamento dos projetos presentes na empresa, visto que em uma breve comparação com ferramentas semelhantes as mesmas sempre possuiam algum fator dificultante, seja a visualização ou então a limitação do uso por todos os setores.
 Logo o Gantt Planner nasceu com a proposa de ser uma ferramenta visual de planejamento, apesentando de forma grafica os projetos e recursos disponiveis no momento.
@@ -157,10 +167,13 @@ Como aprendizado efetivo, posso destacar o correto uso das formas normais para a
 
 ## Valcode
 
-Projeto de CADASTRO POSITIVO - FATEC Prof. Jessen Vidal - São José dos Campos / 2020.2
-
-Link para o repositório: https://github.com/JessicaIsri/Valcode
-
+Ano: 2020.2
+Parceiro: SPC
+<p align="center">
+  <a href="https://github.com/JessicaIsri/Valcode">
+    <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
  
 Esse projeto foi desenvolvido visando a capacidade de gerar valor aos usuários do Cadastro Positivo, clientes do SPC BRASIL.
 O Valcode é uma plataforma que tem como objetivo auxiliar na obtenção de dados sobre o seu cadastro positivo, onde era possivél consultar seu score, saber quantas vezes o seu crédito foi consultado, a evolução do seu score com o passar do tempo, juntar pontos de recompensas para o icentivo da não inadiplencia e acessar a dicas de como ter uma vida financeira mais saudavél.
@@ -309,11 +322,15 @@ Como principais apreendizados, devo ressaltar o uso do design patterns e um apri
 Outro ponto importante se dá na analise critica de dados, entender o que casa dado representa e como gerar valor a partir dele e claro sem infligir ou violar a lei geral de proteção de dados (lgpd), pois atualmente devemos ter o máximo cuidado com o uso e exposição de dados de terceiros.
 
 ## Nemo
-Nemo - FATEC Prof. Jessen Vidal - São José dos Campos / 2021.1
+Ano: 2021.1
+Parceiro: GSW
+<p align="center">
+  <a href="https://github.com/JessicaIsri/Nemo">
+    <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
 
 No primeiro semestre de 2021, no então 4º semestre, trabalhamos junto ao parceiro {Nome do parceiro} em uma aplicação que tinha por objetivo o macth entre o candidato e o contratante para uma determinada vaga, com base nas skills e experiência do candidato.
-
-Link para o repositório: https://github.com/JessicaIsri/Nemo
 
 ### Contribuições individuais/pessoais
 Nesse projeto em especifico, fiquei responsável pelo sistema de calculo do “score” que cada candidato apresentava para a vaga, ou seja, o quanto o candidato se encaixava na vaga a ser disputada.
@@ -333,10 +350,15 @@ Java, FeingCient, Postgis, Hibernate, JPA
 Como skill de destaque, devo ressaltar o desenvolvimento da capacidade analítica, como lidar com os dados retornados pela Directions, como usar esses dados ao nosso favor, como gerar valor em uma série de métricas para o nosso cliente.  Por mais do sistema não ser perfeito e acabar por cortar algumas pessoas da lista, ele acabava por apresentar um bom ranqueamento.
 
 ## Nemosys
-Nemo - FATEC Prof. Jessen Vidal - São José dos Campos / 2021.2
+Ano: 2021.2
+Parceiro: NESS
+<p align="center">
+  <a href="https://github.com/api-fatec-bd/api">
+    <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
 Para o o 5 semestre tivemos como parceiros a empresa {Nome da empresa}, e o objetivo era o desenvolvimento de uma plataforma para o suporte ao ensino as distancia e oferta de conhecimento, sendo capaz de levantar métricas a partir do uso da plataforma.
 
-Link para o repositório: https://github.com/api-fatec-bd/api
 
 ### Contribuições Pessoais
 Nesse projeto estive mais envolvida na parte de infra estrutura e dev-ops, dentre as atividades desenvolvidas estão: 
