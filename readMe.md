@@ -183,7 +183,6 @@ O Valcode é uma plataforma que tem como objetivo auxiliar na obtenção de dado
 Os dados utilizados foram capturados a partir de fontes publicas  e de caráter público, sobre o histórico de crédito, dessa forma podendo ser utilizados diante do consentimento do usuário.
 Um destaque importante a se fazer é que há uma grande quantia de pessoas que raramente consta na base de dados, por não participar de aquisições sucetíveis ás consultas de crédito, os nomeados "desbancarizados", compostos geralmente de pessoas que não possuem contas bancarias. 
 Sendo assim o sistema deve ser capaz de aceitar fontes de dados externas para além das fornecidas pelo SPC.
-![image](https://user-images.githubusercontent.com/65822756/141018970-18faf248-3c21-4748-85a4-e09849948422.png)
 
 
 ### Técnologias utilizadas na solução
