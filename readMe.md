@@ -233,7 +233,7 @@ Por utilizarmos a Digital Ocean para hospedagem e execução, é necessário rea
 
 Uma vez configurado o secret, podemos apenas atualizar ou apagar o mesmo.
 
-Juto da aplicação utilizamos um serviço de chat desenvolvido por terceiros e disponibilizado através de uma imagem docker, porém para o seu correto funcionamento o chat dependia da utilização de 3 instancias do mongo, uma primaria e duas replicas.
+Junto da aplicação utilizamos um serviço de chat desenvolvido por terceiros e disponibilizado através de uma imagem docker, porém para o seu correto funcionamento o chat dependia da utilização de 3 instancias do mongo, uma primaria e duas replicas.
 
 Para realizar tal feito sem a necessidade de se utilizar 3 VMs da Digital Ocean, foi configurado 3 services do mongo num arquivo docker-compose, utilizando uma rede para a comunicação entre eles.
 
