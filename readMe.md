@@ -59,9 +59,9 @@ O bot foi montao a partir de uma adptação de uma ferramenta de testes, o Selen
 Para conseguir extrair os dados das planilhas, inicialmente foi necessário adquirir o conhecimento dos interators presentes no python, porém posteriormente foi utilizado a biblioteca pandas, que era capaz de manipular os dados através de seus dataframes. 
 
 ### Hard Skills Desenvolvidas:
-Python: Sei fazer sozinho.
+Python: Sei fazer com autonomia.
 
-Selenium:  Sei fazer sozinho.
+Selenium:  Sei fazer com autonomia.
 
 ### Soft Skills Efetivamente Desenvolvidas:
 Como softskills desenvolvidas, temos o aprendizado inicial do uso do scrum, mesmo que ainda longe de uma aplicaçao ideal, ainda sim tivemos a ideia de como se portavam cada papel e as suas principais funções. Para além não posso deixar de destacar as habilidades interpessoais adiquiridas, pois para o total desenvolvimento do projeto foi necessário aprender a trabalhar e se relacionar em equipe. Pois, desde a capacidade de reconhecer quando esta com dificuldade em algo, quanto a humildade de ajudar o colega.
@@ -94,9 +94,9 @@ Também contribui escrevendo as rotinas presentes nos CRUDS para relacionados a 
 
 
 ### Hard Skills Desenvolvidas:
-Python: Sei fazer sozinho
+Python: Sei fazer com autonomia
 
-PostgreSQL: Sei fazer sozinho
+PostgreSQL: Sei fazer com autonomia
 
 ### Soft Skills Efetivamente Desenvolvidas:
 O enfoque desse projeto esteve voltado principalmente a atuação em time, tanto o respeito com os parceiros, quanto ao entendimento do real trabalho em time. Um ponto de destaque principal é o impacto da divisão de tarefas, saber assumir tarefas conforme a sua real capacidade de desenvolvimento. Junto a isso a priorização e levantamento de requisitos, representam a base de qualquer projeto, pois com essas informações é possível basear não só o banco de dados, mas toda a aplicação.
@@ -136,11 +136,11 @@ No caso da listagem de informações, desenvolvi um filtro que fuincionava de fo
 Para a inserção de dados, montei leitores de CSV para cada uma das planilhas fornecidas, transformando os dados em listas de dados e em seguidas os inserindo em banco através de uma unica transação para poder otimizar o tempo de requisição.
 
 ### Hard Skills Desenvolvidas:
-Java: Sei fazer sozinho
+Java: Sei fazer com autonomia
 
 Oracle Database: sei fazer com ajuda 
 
-SpringBoot: Sei fazer sozinho
+SpringBoot: Sei fazer com autonomia
 
 ### Soft Skills Efetivamente Desenvolvidas:
 Como softskills desenvolvidas ressalto a habilidade de priorizar o desenvolvimento de tarefas e comunicação efetiva entre times.
@@ -181,9 +181,9 @@ Em adição ao sistema provido de geolocalização, também fui responsável pel
 Para a busca mais avançada o sistema consistia de uma busca ponderada, era inicialmente feito uma busca simples pelos critérios desejados para a vaga de maneira bem genérica. Em seguida com aquele resultado era aplicado uma logica de pesos, onde cada critério atendido da vaga adicionava uma pontuação pré configurada pelo recrutador, assim obtendo um rank de candidatos, dentro dos possíveis candidatos
 
 ### Hard Skills Desenvolvidas:
-Java: Sei fazer sozinho
+Java: Sei fazer com autonomia
 
-Postgis: Sei fazer sozinho
+Postgis: Sei fazer com autonomia
 
 SpringBoot: Sei fazer sozino
 
@@ -240,13 +240,13 @@ Para realizar tal feito sem a necessidade de se utilizar 3 VMs da Digital Ocean,
 
 ### Hard Skills Desenvolvidas:
 
-Java: Sei fazer sozinho 
+Java: Sei fazer com autonomia 
 
-Git Workflow: Sei fazer sozinho 
+Git Workflow: Sei fazer com autonomia 
 
-Docker: Sei fazer sozinho 
+Docker: Sei fazer com autonomia 
 
-Cloud Compute: Sei fazer sozinho 
+Cloud Compute: Sei fazer com autonomia 
 
 MongoDb: Sei fazer com ajuda
 
