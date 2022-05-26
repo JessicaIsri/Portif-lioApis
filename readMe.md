@@ -253,3 +253,57 @@ MongoDb: Sei fazer com ajuda
 ### Soft Skills Efetivamente Desenvolvidas:
 
 Como soft skill tive o desenvolvimento da comunicação com o time de desenvolvimento, visto que não programava, porém, precisava dar suporte de infraestrutura as aplicações desenvolvidas.
+
+
+## Lgpd Exclusion
+Ano: 2022.1
+
+Parceiro: Fatec
+
+<p align="left">
+  <a href="https://github.com/api-fatec-bd/api">
+    <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
+Com o avanço da popularidade de temas relacionados a aplicação da LGPD(Lei Geral da Proteção de Dados), algumas lacunas começaram a ganhar destaque,
+dentre elas a preocupação relativa aos dados do usuário quando se é realizado um backup.
+
+Citando como exemplo uma base de dados de uma agência de viagens, onde temos dados de usuários, destinos e viagens realizadas,
+porém um usuário cadastrado solicita sua remoção da base, algo simples a princípio, entretanto um problema ocorre e é necessário o restore
+do último backup realizado dessa base.
+
+Nesse cenário hipotético o usuário que antes havia sido removido arrisca voltar a aparecer no banco de dados.
+
+### Técnologias utilizadas na solução
+Python: O python foi utilizado para o desenvolvimento da aplicação, com o acréscimo do Flask para poder montar os endpints
+que controlam a requisição de Backup e Restore.
+
+Mysql: O Mysql foi utilizado para o armazenamento de dados em duas instancias de banco separadas
+onde uma recebia o blacklist e a outra os dados pertinentes ao negócio.
+
+### Contribuições Pessoais
+
+Por se tratar de um projeto individual pude atuar de ponta a ponta, logo tive a responsabilidade desde gerar os dados para o Mock
+quanto o desenvolvimento e estruturação da aplicação.
+
+A aplicação consiste basicamente de uma API em python responsavél por controlar as solicitações de backup e restore, scripts de conexão entre os bancos e scripts para a remoção pós restore dos usuários presentes na blacklist.
+
+
+Uma vez que o usuário solicita sua remoção, antes de ser excluido, seu id é gravado em outro banco de dados chamado blacklist.
+
+Toda vez que realizamos um restore, antes de disponibilizar a base para uso, um script recupera todos os ids do Blacklist e executa um comando de DELETE, passando esses ids como argumento. Dessa forma caso algum registro volte a existir de maneira indevida, ele será novamente apagado.
+
+![img.png](img.png)
+
+### Hard Skills Desenvolvidas:
+
+Python: Sei fazer com autonomia
+
+MySql: Sei fazer com autonomia
+
+### Soft Skills Efetivamente Desenvolvidas:
+
+Diferente dos projetos anteriores onde tinhamos muita interação em equipes, assim possibilitando softskills voltadas a essa convivência. Esse projeto trouxe principalmente a capacidade analitica externa a programação de fato, uma vez que para a correta aplicação da LGPD é necessário o estudo de conteudos jurídicos.
+
+
+## Meus Principais Conhecimentos
