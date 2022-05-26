@@ -29,6 +29,8 @@ Atualmente busco conhecimento na area de big data e machine learning, no momento
 3. [Valcode](https://github.com/JessicaIsri/PortifolioApis/blob/main/readMe.md#valcode)
 4. [Nemo](https://github.com/JessicaIsri/PortifolioApis/blob/main/readMe.md#nemo)
 5. [Nemosys](https://github.com/JessicaIsri/PortifolioApis/blob/main/readMe.md#nemosys)
+6. [Lgpd Exclusion](https://github.com/JessicaIsri/PortifolioApis/tree/v2#lgpd-exclusion)
+
 ## Webbot
 
 Ano: 2019.2
@@ -307,3 +309,7 @@ Diferente dos projetos anteriores onde tinhamos muita interação em equipes, as
 
 
 ## Meus Principais Conhecimentos
+Como podemos observar, venho atuando fortemente em rotinas relacionadas ao contexto do backend, logo possuo sólidos conhecimentos em linguagens utilizadas para esse propósito, tais como 
+Python, Java e PHP. Junto a isso possuo habilidades em bancos relacionais como por exemplo o PostgreSql, Oracle e Mysql e bancos NOSQL citando o MongoDB como exemplo.
+
+Além dos conhecimentos adquiridos no decorrer do curso de Banco de Dados, também possuo conhecimento em computação em nuvem, podendo citar o uso da Amazon Web Services e principalmente a Google Cloud Plataform, onde extendo esse conhecimento até a area de big data, com o uso de datawarehouses baseados em serviços servless até o uso do streaming de dados.
