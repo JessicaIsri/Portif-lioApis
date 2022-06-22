@@ -151,7 +151,7 @@ Como softskills desenvolvidas ressalto a habilidade de priorizar o desenvolvimen
 ## Nemo
 Ano: 2021.1
 
-Parceiro: GSW
+Parceiro: JETSOFT
 
 <p align="left">
   <a href="https://github.com/JessicaIsri/Nemo">
@@ -263,7 +263,7 @@ Ano: 2022.1
 Parceiro: Fatec
 
 <p align="left">
-  <a href="https://github.com/api-fatec-bd/api">
+  <a href="https://github.com/JessicaIsri/user_exclude_post_backup">
     <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </p>
