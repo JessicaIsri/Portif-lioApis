@@ -81,7 +81,7 @@ Parceiro: NECTO
 </p>
 Nossa parceira, a Necto Software, é uma empresa especializada em promover soluções de software.
 
-O Gantt Planner surgiu da necessidade da empresa Necto, da qual precisava de uma ferramenta que fosse fácil de se utilizar, portatil e flexivel e conseguisse auxiliar no planejamento dos projetos presentes na empresa, visto que numa breve comparação com ferramentas semelhantes as mesmas sempre possuam algum fator dificultante, seja a visualização ou então a limitação do uso por todos os setores.
+O Gantt Planner surgiu da necessidade da empresa Necto, da qual precisava de uma ferramenta que fosse fácil de se utilizar, portatil e flexivel e conseguisse auxiliar no planejamento dos projetos presentes na empresa, visto que em uma breve comparação com ferramentas semelhantes as mesmas sempre possuam algum fator dificultante, seja a visualização ou então a limitação do uso por todos os setores.
 Logo o Gantt Planner nasceu com a proposta de ser uma ferramenta visual de planejamento, apesentando de forma gráfica os projetos e recursos disponíveis no momento.
 
 ### Técnologias utilizadas na solução
@@ -192,7 +192,7 @@ SpringBoot: Sei fazer sozino
 Google Directions: Sei fazer com ajuda
 
 ### Soft Skills Efetivamente Desenvolvidas:
-Como skill de destaque, devo ressaltar o desenvolvimento da capacidade analítica, como lidar com os dados retornados pela Directions, como usar esses dados ao nosso favor, como gerar valor numa série de métricas para o nosso cliente. Por mais do sistema não ser perfeito e acabar por cortar algumas pessoas da lista, ele acabava por apresentar um bom ranqueamento.
+Como skill de destaque, devo ressaltar o desenvolvimento da capacidade analítica, como lidar com os dados retornados pela Directions, como usar esses dados ao nosso favor, como gerar valor em uma série de métricas para o nosso cliente. Por mais do sistema não ser perfeito e acabar por cortar algumas pessoas da lista, ele apresentava um bom ranqueamento.
 
 ## Nemosys
 Ano: 2021.2
