@@ -159,7 +159,7 @@ Parceiro: JETSOFT
   </a>
 </p>
 
-No primeiro semestre de 2021, no então 4º semestre, trabalhamos junto ao parceiro GSW em uma aplicação que tinha por objetivo o macth entre o candidato e o contratante para uma determinada vaga, com base nas skills e experiência do candidato.
+No primeiro semestre de 2021, no então 4º semestre, trabalhamos junto ao parceiro JETSOFT em uma aplicação que tinha por objetivo o macth entre o candidato e o contratante para uma determinada vaga, com base nas skills e experiência do candidato.
 ![img_3.png](img_3.png)
 ### Técnologias utilizadas na solução
 
@@ -203,7 +203,7 @@ Parceiro: NESS
   <a href="https://github.com/api-fatec-bd/api">
     <img width="100px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a>
-</p>c
+</p>
 Para o o 5 semestre tivemos como parceiros a empresa NESS, e o objetivo era o desenvolvimento de uma plataforma para o suporte ao ensino as distancia e oferta de conhecimento, sendo capaz de levantar métricas a partir do uso da plataforma.
 
 ![img_1.png](img_1.png)
