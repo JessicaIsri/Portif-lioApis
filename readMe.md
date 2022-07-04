@@ -1,5 +1,8 @@
 # Jéssica Isri Dias Cruz
 
+![image](https://user-images.githubusercontent.com/65822756/177152171-bb896756-118e-4f25-8b73-2a49caeeed67.png)
+
+
 Me chamo Jéssica Isri Dias Cruz, estudante, formando de Banco de Dados na Fatec São José dos Campos e formada em Técnico de Informatica, pela ETEC Machado de Assis em 2019.
 
 Iniciei na area do TI desde 2017 quando realizei um estágio junto ao técnico de informatica. 
